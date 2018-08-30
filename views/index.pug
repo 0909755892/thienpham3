@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	h1= datanguyen.data.title
+	figure
+		img(src=datanguyen.data.img, alt="")
+	p=datanguyen.data.dese
+	ul
+		-for(x=0;x<datanguyen.data.list.length;x++)
+			li
+				if(x==1)
+					a(href="#") #{datanguyen.data.list[x]} 123
+				else
+					a(href="#") #{datanguyen.data.list[x]}
+
+	- for(x=0;x<datanguyen.data.new.length;x++)
+		.item
+			h2=datanguyen.data.new[x].name
+			p=datanguyen.data.new[x].dese

@@ -1,0 +1,39 @@
+{
+	"data": 
+	{
+		"title": "nguyen hhehe",
+		"dese": " sjfsjdhf sdfasjdfhj asdhfjhasdjfhj sdfhjshdf ",
+		"img": "http://localhost:3000/img/logo.png",
+		"list": 
+			[
+				"abc",
+				"xyz",
+				"concu"
+				
+			],
+		"new": 
+			[
+				{
+					"name": "asdasd",
+					"dese": "asdasdas"
+
+				},
+
+				{
+					"name": "asdsad",
+					"dese": "asdsad1"
+
+				}
+				
+			]
+
+		
+
+	}
+
+
+
+
+
+
+}
